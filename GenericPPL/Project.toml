@@ -1,0 +1,4 @@
+name = "GenericPPL"
+uuid = "1869e4c3-ab19-4553-a7ff-143166510de5"
+authors = ["Oliver Schulz <oschulz@mpp.mpg.de>"]
+version = "0.1.0"
