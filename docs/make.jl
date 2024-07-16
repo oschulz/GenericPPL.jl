@@ -5,22 +5,22 @@
 # for local builds.
 
 using Documenter
-using JuliaPackageTemplate
+using GenericPPL
 
 # Doctest setup
 DocMeta.setdocmeta!(
-    JuliaPackageTemplate,
+    GenericPPL,
     :DocTestSetup,
-    :(using JuliaPackageTemplate);
+    :(using GenericPPL);
     recursive=true,
 )
 
 makedocs(
-    sitename = "JuliaPackageTemplate",
-    modules = [JuliaPackageTemplate],
+    sitename = "GenericPPL",
+    modules = [GenericPPL],
     format = Documenter.HTML(
         prettyurls = !("local" in ARGS),
-        canonical = "https://oschulz.github.io/JuliaPackageTemplate.jl/stable/"
+        canonical = "https://oschulz.github.io/GenericPPL.jl/stable/"
     ),
     pages = [
         "Home" => "index.md",
@@ -33,7 +33,7 @@ makedocs(
 )
 
 deploydocs(
-    repo = "github.com/oschulz/JuliaPackageTemplate.jl.git",
+    repo = "github.com/oschulz/GenericPPL.jl.git",
     forcepush = true,
     push_preview = true,
 )

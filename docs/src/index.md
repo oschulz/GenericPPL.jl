@@ -1,1 +1,1 @@
-# JuliaPackageTemplate.jl
+# GenericPPL.jl

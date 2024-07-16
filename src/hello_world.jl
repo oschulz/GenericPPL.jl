@@ -1,15 +1,15 @@
-# This file is a part of JuliaPackageTemplate.jl, licensed under the MIT License (MIT).
+# This file is a part of GenericPPL.jl, licensed under the MIT License (MIT).
 
 
 """
-    JuliaPackageTemplate.hello_world()
+    GenericPPL.hello_world()
 
 Prints "Hello, World!" and returns 42.
 
 ```jldoctest
-using JuliaPackageTemplate
+using GenericPPL
 
-JuliaPackageTemplate.hello_world()
+GenericPPL.hello_world()
 
 # output
 

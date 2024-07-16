@@ -1,4 +1,4 @@
-The JuliaPackageTemplate.jl package is licensed under the MIT "Expat" License:
+The GenericPPL.jl package is licensed under the MIT "Expat" License:
 
 > Copyright (c) 2018:
 >

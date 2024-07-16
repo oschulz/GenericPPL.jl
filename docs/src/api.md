@@ -21,6 +21,6 @@ Order = [:macro, :function]
 # Documentation
 
 ```@autodocs
-Modules = [JuliaPackageTemplate]
+Modules = [GenericPPL]
 Order = [:module, :type, :constant, :macro, :function]
 ```
